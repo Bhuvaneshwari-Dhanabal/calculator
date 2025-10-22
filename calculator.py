@@ -32,7 +32,6 @@ def calculator():
             elif operation == "*":
                 result *= n
             elif operation == "/":
-                if n == 0:
                     print("Error: Division by zero not allowed.")
                     return calculator()
                 result /= n
